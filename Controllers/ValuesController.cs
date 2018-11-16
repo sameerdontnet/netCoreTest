@@ -27,6 +27,7 @@ namespace NetCoreTest.Controllers
         [HttpPost]
         public void Post([FromBody]string value)
         {
+            var b = "sameer";
         }
 
         // PUT api/values/5
